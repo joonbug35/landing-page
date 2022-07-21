@@ -1,3 +1,8 @@
+body {
+    display: flex;
+    flex-direction: column;
+}
+
 .header {
     display: flex;
     justify-content: space-around;
@@ -17,7 +22,6 @@ a {
     text-decoration: none;
 }
 
-
 .media-object {
     display: flex;
     flex-direction: row-reverse;
@@ -31,4 +35,9 @@ img {
 .media-object-text {
     display: flex;
     flex-flow: column wrap;
+}
+
+.button {
+    display: flex;
+    justify-content: flex-start;
 }
