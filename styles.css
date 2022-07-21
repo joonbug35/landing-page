@@ -1,6 +1,11 @@
 body {
     display: flex;
     flex-direction: column;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+.section-one {
+    background-color: #1f2937;
 }
 
 .header {
@@ -8,6 +13,11 @@ body {
     justify-content: space-around;
     align-items: center;
     margin-bottom: 200px;
+}
+
+.logo {
+    font-size: 24px;
+    color: #f9faf8
 }
 
 ul {
@@ -18,26 +28,39 @@ ul {
     gap: 16px;
 }
 
-a {
+a, .secondary-text {
     text-decoration: none;
+    font-size: 18px;
+    color: #e5e7eb;
 }
 
 .media-object {
     display: flex;
     flex-direction: row-reverse;
     justify-content: space-around;
+    align-items: center;
 }
 
 img {
     width: 300px;
     height: auto;
 }
+
+.main-text {
+    font-size: 48px;
+    font-weight: 800;
+    color: #f9faf8;
+}
+
 .media-object-text {
     display: flex;
     flex-flow: column wrap;
+    justify-content: space-around;
 }
 
-.button {
+button {
+    background-color: #3882f6;
+    color: #f9faf8;
     display: flex;
     justify-content: flex-start;
 }
