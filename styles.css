@@ -17,10 +17,6 @@ a {
     text-decoration: none;
 }
 
-img {
-    width: 300px;
-    height: auto;
-}
 
 .media-object {
     display: flex;
@@ -28,6 +24,10 @@ img {
     justify-content: space-around;
 }
 
+img {
+    width: 300px;
+    height: auto;
+}
 .media-object-text {
     display: flex;
     flex-flow: column wrap;
