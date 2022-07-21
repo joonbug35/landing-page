@@ -39,6 +39,8 @@ a, .secondary-text {
     flex-direction: row-reverse;
     justify-content: space-around;
     align-items: center;
+    margin: 200px;
+    gap: 48px;
 }
 
 img {
