@@ -2,6 +2,7 @@
     display: flex;
     justify-content: space-around;
     align-items: center;
+    margin-bottom: 200px;
 }
 
 ul {
@@ -19,4 +20,15 @@ a {
 img {
     width: 300px;
     height: auto;
+}
+
+.media-object {
+    display: flex;
+    flex-direction: row-reverse;
+    justify-content: space-around;
+}
+
+.media-object-text {
+    display: flex;
+    flex-flow: column wrap;
 }
