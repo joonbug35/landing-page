@@ -103,6 +103,7 @@ button {
     display: flex;
     justify-content: center;
     gap: 48px;
+    margin-bottom: 100px;
 }
 
 .info {
