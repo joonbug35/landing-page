@@ -136,3 +136,29 @@ a, .secondary-text {
     font-size: 24px;
     padding-right: 24px;
 }
+
+.section-four {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.action-container {
+    margin: 100px;
+    width: 800px;
+    color: white;
+    background-color: #3882f6;
+    display: flex;
+    justify-content: space-around;
+    padding: 50px 75px;
+    border-radius: 15px;
+    gap: 80px;
+}
+
+.action-container button {
+    background-color: #3882f6;
+    color: white;
+    border-radius: 15px;
+    border-color: white;
+    border-style: solid;
+}
