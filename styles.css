@@ -66,6 +66,8 @@ img {
     display: flex;
     flex-flow: column wrap;
     justify-content: space-around;
+    padding: 32px;
+    gap: 16px;
 }
 
 button {
