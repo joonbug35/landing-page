@@ -33,8 +33,11 @@ ul {
     gap: 16px;
 }
 
-a, .secondary-text {
+a {
     text-decoration: none;
+}
+
+a, .secondary-text {
     font-size: 18px;
     color: #e5e7eb;
 }
