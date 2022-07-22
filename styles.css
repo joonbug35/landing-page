@@ -78,11 +78,19 @@ button {
     border-style: none;
 }
 
-img {
+.info img {
     width: 200px;
     height: 200px;
     border-radius: 50px;
     border-color: #3882f6;
     border-style: solid;
     border-width: 5px;
+}
+
+.info-title {
+    font-size: 36px;
+    font-weight: 800;
+    font-family: #1f2937;
+    text-align: center;
+    margin: 50px;
 }
