@@ -69,7 +69,7 @@ a, .secondary-text {
     gap: 16px;
 }
 
-button {
+.media-object-text button {
     background-color: #3882f6;
     color: #f9faf8;
     width: 100px;
