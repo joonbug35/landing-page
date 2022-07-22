@@ -174,3 +174,13 @@ a, .secondary-text {
     font-size: 18px;
     color:#e5e7eb;
 }
+
+.footer {
+    background-color: #1f2937;
+    color: #e5e7eb;
+    height: 100px;
+    font-size: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
