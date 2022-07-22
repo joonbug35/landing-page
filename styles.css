@@ -104,3 +104,7 @@ button {
     justify-content: center;
     gap: 48px;
 }
+
+.info {
+    max-width: 200px;
+}
