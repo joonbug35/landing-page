@@ -161,4 +161,16 @@ a, .secondary-text {
     border-radius: 15px;
     border-color: white;
     border-style: solid;
+    padding: 0px 40px;
+    font-size: 18px;
+}
+
+.heading {
+    font-size: 24px;
+    font-weight: 700;
+}
+
+.subtext {
+    font-size: 18px;
+    color:#e5e7eb;
 }
